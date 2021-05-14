@@ -33,7 +33,7 @@ const connectKafka = async() => {
             await producer.disconnect();
             producer = null;
             console.log("INFO: Producer disconnected due to timeout.");
-        }, 60000);
+        }, 60000); // If there is no request for 60 secs, producer disconnects.
     }
 
     catch(ex) {

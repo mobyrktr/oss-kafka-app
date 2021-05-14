@@ -21,10 +21,10 @@ async function getMessages() {
         // subscribe to get messages from related topic
         await consumer.subscribe({
             topic: "OSS",
-            fromBeginning: true
+            fromBeginning: true // start reading messages from beginning
         });
 
-        // start listening for messages and print on console for each message
+        // start listening for messages and print each message on console
         await consumer.run({
             eachMessage: async (result) => {
                 console.log(

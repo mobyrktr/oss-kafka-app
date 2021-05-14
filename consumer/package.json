@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Muhammet Onur Bayraktar",
-  "license": "MIT",
+  "license": "Apache v2.0",
   "dependencies": {
     "kafkajs": "^1.15.0"
   }
