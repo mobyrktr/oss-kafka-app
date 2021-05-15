@@ -17,7 +17,7 @@
 1. Clone the repository
     ```bash
     git clone https://github.com/mobyrktr/oss-kafka-app.git
-    cd oss-kafka-project
+    cd oss-kafka-app
     ```
 
 2. Make sure that port **7777** is not used by another application then run docker-compose
